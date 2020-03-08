@@ -18,7 +18,9 @@ nav{
 .logo-cont{
   display:flex;
   align-items: center;
+  justify-content:center;
   height: 100%;
+  width: 25%;
 }
 
 .logo{
@@ -38,7 +40,7 @@ nav{
   justify-content:space-around;
   align-items: center;
 
-  width: 1021px;
+  width: 50%;
   height: 100%;
 }
 
@@ -52,5 +54,14 @@ nav{
 .social-net{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 10%;
+}
+
+.signin{
+  display: flex;
+  align-items: center;
+  border-left: 3px solid white;
+  padding-left:10px;
+  height: 70%;
 }

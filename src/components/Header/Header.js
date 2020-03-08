@@ -10,7 +10,7 @@ const Header = ({ logo, menu, socialNet })=>
             alt = 'logo' />
         </div>
         <Menu menu = {menu} socialNet = {socialNet}/>
-        {/* <SocialNet socialNet = {socialNet}/> */}
+        <SocialNet socialNet = {socialNet}/>
     </nav>
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SocialNet = ({ socialNet }) => 
+    
     <div className = 'social-net'>
         {
             socialNet.map((net, i)=>
@@ -12,9 +13,9 @@ const SocialNet = ({ socialNet }) =>
                     width = '35px'
             />
 
-            
             )
         }
+         <p className = "signin">sign in</p>
     </div>
         
 

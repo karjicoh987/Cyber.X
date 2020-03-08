@@ -10,8 +10,6 @@ const Menu = ({ menu,socialNet }) =>
                         )
                     }
                 </div>
-           
-                <SocialNet socialNet = {socialNet}/>
             </div>
 
 export default Menu;
