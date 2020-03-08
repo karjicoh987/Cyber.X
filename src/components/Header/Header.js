@@ -1,16 +1,17 @@
 import React from 'react'
 
 const Header = ()=>
-    <div>
+    <nav>
         <div className = 'logo'>
             
-        </div>
-
-        <div className = 'nav'>
-
-        </div>
-
-        <div className = 'social-network'></div>
-    </div>
+            </div>
+    
+            <div className = 'menu'>
+    
+            </div>
+    
+            <div className = 'social-network'></div>
+    </nav>
+        
 
 export default Header
