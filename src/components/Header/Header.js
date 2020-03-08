@@ -1,13 +1,18 @@
 import React from 'react'
 
-const Header = ()=>
+
+const Header = ({ menu, logo })=>
     <nav>
         <div className = 'logo'>
-            
-            </div>
+            <img src = {logo} alt = 'logo' />
+        </div>
     
             <div className = 'menu'>
-    
+                {
+                    menu.map((item, i)=>
+                        <p key = {i}>{item}</p>
+                    )
+                }
             </div>
     
             <div className = 'social-network'></div>
