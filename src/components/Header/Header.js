@@ -1,21 +1,12 @@
 import React from 'react'
-
-
-const Header = ({ menu, logo })=>
+import SocialNet from './SocialNet'
+import Menu from './Menu';
+const Header = ({data})=>
     <nav>
-        <div className = 'logo'>
-            <img src = {logo} alt = 'logo' />
-        </div>
+        <img className = 'logo' src = {logo} alt = 'logo' />
+        <Menu listMenu = {}/>
+        <SocialNet listNet = {}/>
     
-            <div className = 'menu'>
-                {
-                    menu.map((item, i)=>
-                        <p key = {i}>{item}</p>
-                    )
-                }
-            </div>
-    
-            <div className = 'social-network'></div>
     </nav>
         
 

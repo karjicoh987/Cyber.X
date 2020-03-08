@@ -28,6 +28,9 @@ nav{
 
 .menu{
   display: flex;
+
+  width: 1021px;
+  height: 35px;
 }
 
 .social-network{
