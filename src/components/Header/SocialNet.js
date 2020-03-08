@@ -1,13 +1,18 @@
 import React from 'react';
 
 const SocialNet = ({ socialNet }) => 
-    <div className = 'social-network'>
+    <div>
         {
             socialNet.map((net, i)=>
-            <img    src = {net} 
+                <img
+                  src = {net} 
                     alt = 'Картинка'
                     key = {i} 
+                    height = '35px'
+                    width = '35px'
             />
+
+            
             )
         }
     </div>
