@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SocialNet = ({ socialNet }) => 
-    <div>
+    <div className = 'social-net'>
         {
             socialNet.map((net, i)=>
                 <img
@@ -16,5 +16,9 @@ const SocialNet = ({ socialNet }) =>
             )
         }
     </div>
+        
+
+        
+
 
 export default SocialNet;
