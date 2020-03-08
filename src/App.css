@@ -59,8 +59,11 @@ nav{
 }
 
 .signin{
+  font-weight: bold;
+
   display: flex;
   align-items: center;
+  
   border-left: 3px solid white;
   padding-left:10px;
   height: 70%;

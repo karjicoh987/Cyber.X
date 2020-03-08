@@ -1,6 +1,7 @@
 import React from 'react'
 import SocialNet from './SocialNet'
 import Menu from './Menu';
+
 const Header = ({ logo, menu, socialNet })=>
 
     <nav>  
