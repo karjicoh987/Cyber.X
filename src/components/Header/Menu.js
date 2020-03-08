@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Menu = ({ listMenu }) =>
+const Menu = ({ menu }) =>
             <div className = 'menu'>
                 {
-                    listMenu.map((item, i)=>
+                    menu.map((item, i)=>
                         <p key = {i}>{item}</p>
                     )
                 }

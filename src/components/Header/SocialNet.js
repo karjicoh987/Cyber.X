@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SocialNet = ({ listNet }) => 
+const SocialNet = ({ socialNet }) => 
     <div className = 'social-network'>
         {
-            listNet.map((net, i)=>
+            socialNet.map((net, i)=>
             <img    src = {net} 
                     alt = 'Картинка'
                     key = {i} 
