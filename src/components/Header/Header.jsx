@@ -1,17 +1,15 @@
-import React from 'react'
-import SocialNet from './SocialNet'
+import React from 'react';
+import SocialNet from './SocialNet';
 import Menu from './Menu';
+import Logo from './Logo';
+
 
 const Header = ({ logo, menu, socialNet })=>
 
     <nav>  
-        <div className = 'logo-cont'>
-            <img className = 'logo' 
-            src = {logo} 
-            alt = 'logo' />
-        </div>
-        <Menu menu = {menu} socialNet = {socialNet}/>
-        <SocialNet socialNet = {socialNet}/>
+        <Logo logo = {logo} />
+        <Menu menu = {menu} socialNet = {socialNet} />
+        <SocialNet socialNet = {socialNet} />
     </nav>
 
 
