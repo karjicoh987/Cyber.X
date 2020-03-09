@@ -1,4 +1,5 @@
 import React from 'react';
+import PropsTypes from 'prop-types'
 
 const SocialNet = ({ socialNet }) => 
     
@@ -22,7 +23,10 @@ const SocialNet = ({ socialNet }) =>
             <p className = "signin">sign in</p>
          </a>
     </div>
-        
+
+SocialNet.propTypes = {
+    socialNet:PropsTypes.string
+}
 
         
 

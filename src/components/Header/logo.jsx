@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 const Logo = ({logo}) =>
     <div className = 'logo-cont'>
@@ -8,7 +9,9 @@ const Logo = ({logo}) =>
                 alt = 'logo'
             />
         </a>
-        
     </div>
 
+Logo.propTypes = {
+    logo:PropTypes.string
+}
 export default Logo
