@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialNet from './SocialNet';
 import Menu from './Menu';
-import Logo from './Logo';
+import Logo from './logo';
 
 
 const Header = ({ logo, menu, socialNet })=>

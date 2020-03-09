@@ -2,10 +2,13 @@ import React from 'react';
 
 const Logo = ({logo}) =>
     <div className = 'logo-cont'>
-        <img className = 'logo' 
-        src = {logo} 
-        alt = 'logo'
-        href = "vk.com" />
+        <a href = 'vk.com'>
+            <img className = 'logo' 
+                src = {logo} 
+                alt = 'logo'
+            />
+        </a>
+        
     </div>
 
 export default Logo
